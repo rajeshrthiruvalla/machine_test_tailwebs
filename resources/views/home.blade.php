@@ -1,11 +1,6 @@
-<!doctype html>
-<html>
-    <head>
-      <link rel="stylesheet" href="{{asset('style.css')}}"/>
-      <link rel="stylesheet" href="{{asset('fontawesome/css/all.min.css')}}" />
-      <meta name="csrf-token" content="{{ csrf_token() }}">
-    </head>
-    <body>
+@extends('layouts.app')
+
+@section('content')
         <div class="navigation">
            <div class="brand">
               tailwebs.
@@ -300,5 +295,4 @@
 
                 }
             </script>
-    </body>
-</html>
+@endsection
